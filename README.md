@@ -41,3 +41,8 @@ print_trainable_parameters(model)
 
 # git clone
 !git clone https://github.com/x4080/testqlora.git
+
+# colab change dir
+import os
+os.chdir('/content/testqlora')
+!ls
