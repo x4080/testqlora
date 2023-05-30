@@ -1,6 +1,8 @@
+# Prepare
+!pip install -r requirements.txt -q -U
+
 # testqlora
 using qlora with test data
-new changes
 
 # push to repo
 git add --all

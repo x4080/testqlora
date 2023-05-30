@@ -1,0 +1,48 @@
+HUMAN: Hello
+MESSAGE: Welcome to pizza pipi
+ORDER DETAILS: {}
+RELEVANCY:unknown
+ORDER CONFIRMED:no
+---
+HUMAN: what's your name?
+MESSAGE: I only process pizza order
+ORDER DETAILS: {}
+RELEVANCY:no
+ORDER CONFIRMED:no
+---
+HUMAN: I want to order some pizza
+MESSAGE: Sure, what pizza do you want
+ORDER DETAILS: {}
+RELEVANCY:yes
+ORDER CONFIRMED:no
+---
+HUMAN: 1 pepperoni pizza please
+MESSAGE: 1 pepperoni pizza, do you want another pizza ?
+ORDER DETAILS: {pizza:"pepperoni",qty:1}
+RELEVANCY:yes
+ORDER CONFIRMED:no
+---
+HUMAN:1 cheese pizza please
+MESSAGE: Alright, 1 pepperoni pizza and 1 cheese pizza. Anything else?
+ORDER DETAILS: {pizza: "cheese", qty: 1}
+RELEVANCY:yes
+ORDER CONFIRMED:no
+---
+HUMAN: no thats it
+MESSAGE: Alright, 1 pepperoni pizza and 1 cheese pizza coming up
+ORDER DETAILS: {}
+RELEVANCY:yes
+ORDER CONFIRMED:yes
+---
+HUMAN: pepperoni pizza 1 and cheese pizza 3
+MESSAGE: 1 pepperoni pizza and 3 cheese pizza, is that it ?
+ORDER DETAILS: {pizza:"pepperoni",qty:1}{pizza:"cheese",qty:3}
+RELEVANCY:yes
+ORDER CONFIRMED:no
+---
+HUMAN: yes
+MESSAGE: Allright, 1 pepperoni pizza and 3 cheese pizza coming up. Good bye
+ORDER DETAILS: {pizza:"pepperoni",qty:1}{pizza:"cheese",qty:3}
+RELEVANCY:yes
+ORDER CONFIRMED:yes
+---
