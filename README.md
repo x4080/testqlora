@@ -21,7 +21,7 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_compute_dtype=torch.bfloat16
 )
 
-tokenizer = LlamaTokenizer
+tokenizer = LlamaTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=bnb_config, device_map={"":0})
 
 # fix for from peft...
@@ -46,3 +46,35 @@ print_trainable_parameters(model)
 import os
 os.chdir('/content/testqlora')
 !ls
+
+# Modify training pad token
+import transformers
+
+tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
+trainer = transformers.Trainer(
+    model=model,
+    train_dataset=data["train"],
+    args=transformers.TrainingArguments(
+        per_device_train_batch_size=1,
+        gradient_accumulation_steps=4,
+        warmup_steps=2,
+        max_steps=20,
+        learning_rate=2e-4,
+        fp16=True,
+        logging_steps=1,
+        output_dir="outputs",
+        optim="paged_adamw_8bit"
+    ),
+    data_collator=transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False),
+)
+model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
+trainer.train()
+
+# Inference example
+text = "Grace to "
+device = "cuda:0"
+
+inputs = tokenizer(text, return_tensors="pt").to(device)
+outputs = model.generate(**inputs, max_new_tokens=20)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
