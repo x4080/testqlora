@@ -146,9 +146,9 @@ model.push_to_hub("notzero/testlora2", use_auth_token=True)
 #--target ~/model_weights/baize-7b \
 #--lora notzero/testlora2
 
-!python /content/testqlora/merge_lora.py \
+!python ./testqlora/merge_lora.py \
 --base decapoda-research/llama-7b-hf \
---target ~/model_weights/mergeqlora \
+--target /kaggle/working/model_weights/mergeqlora \
 --lora notzero/testlora2
 
 !cd /kaggle/working/llama.cpp && mkdir qmodel && mv /root/model_weights/mergeqlora /kaggle/working/llama.cpp/qmodel/temp
