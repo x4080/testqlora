@@ -1,3 +1,9 @@
+# Train until 0.xx, then stop the training ?
+
+# Colab remove dir not empty
+import shutil
+shutil.rmtree('/content/testqlora/outputs')
+
 # Prepare
 !pip install -r requirements.txt -q -U
 
@@ -72,9 +78,31 @@ model.config.use_cache = False  # silence the warnings. Please re-enable for inf
 trainer.train()
 
 # Inference example
-text = "Grace to "
+text = """HUMAN: Hello
+MESSAGE: Welcome to pizza john
+ORDER DETAILS: {}
+RELEVANCY:unknown
+ORDER CONFIRMED:no
+---
+HUMAN: Who is the president of the US?
+MESSAGE: I'm sorry, but I only process pizza orders.
+ORDER DETAILS: {}
+RELEVANCY: No
+ORDER CONFIRMED: No
+---
+HUMAN: can i order some pizza please
+"""
 device = "cuda:0"
 
 inputs = tokenizer(text, return_tensors="pt").to(device)
 outputs = model.generate(**inputs, max_new_tokens=20)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+
+# colab huggingface
+import locale
+locale.getpreferredencoding = lambda: "UTF-8"
+!python -m pip install huggingface_hub
+!huggingface-cli login --token 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
+
+# upload model to HF (no need to create repo first, it will create adapter_config and adapter_model)
+model.push_to_hub("notzero/testlora2", use_auth_token=True)
