@@ -156,7 +156,7 @@ model.push_to_hub("notzero/testlora2", use_auth_token=True)
 
 # create dataset first in web
 !python -m pip install huggingface_hub
-!huggingface-cli login --token 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
+!huggingface-cli login --token ###
 
 !cd /kaggle/working/llama.cpp && mkdir qmodel && mv /root/model_weights/mergeqlora /kaggle/working/llama.cpp/qmodel/temp
 
