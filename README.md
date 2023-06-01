@@ -1,3 +1,5 @@
+# Train until loss is 1.1 or 1.2
+
 # cd and ls
 !cd /kaggle/working && ls
 
