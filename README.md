@@ -29,8 +29,6 @@ model.save_pretrained(dest, max_shard_size=shard_size)
 tokenizer.save_pretrained(dest)
 ---
 
-# Train until 0.xx, then stop the training ?
-
 # Colab remove dir not empty
 import shutil
 shutil.rmtree('/content/testqlora/outputs')
@@ -134,7 +132,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 import locale
 locale.getpreferredencoding = lambda: "UTF-8"
 !python -m pip install huggingface_hub
-!huggingface-cli login --token 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
+!huggingface-cli login --token #
 
 # upload model to HF (no need to create repo first, it will create adapter_config and adapter_model)
 model.push_to_hub("notzero/testlora2", use_auth_token=True)
