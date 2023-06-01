@@ -1,3 +1,8 @@
+# cd and ls
+!cd /kaggle/working && ls
+
+# When using kaggle, to save version, select quick save first
+
 # Try using TheBloke/wizardLM-7B-HF, still cannot load memory not enough to shard ? should be sharded : 0001 of xxx.bin, decapoda is 405MB chunks, now working in kaggle also because 30GB memory is not available if using GPU
 https://www.reddit.com/r/LocalLLaMA/comments/13v6qvh/til_sharding_a_model_into_smaller_chunks_may_make/
 - need to be sharded first, if it will be crashed when loading into memory
@@ -169,11 +174,21 @@ api.upload_folder(
     repo_type="dataset",
 )
 
+# Quantize (new notebook)
+
+mkdir /root/modelcombined 
+
+!cd /root/modelcombined && wget https://huggingface.co/datasets/notzero/modelcombined/resolve/main/pytorch_model-00001-of-00002.bin
+!cd /root/modelcombined && wget https://huggingface.co/datasets/notzero/modelcombined/resolve/main/pytorch_model-00002-of-00002.bin
+!cd /root/modelcombined && wget https://huggingface.co/datasets/notzero/modelcombined/resolve/main/pytorch_model.bin.index.json
+!cd /root/modelcombined && wget https://huggingface.co/datasets/notzero/modelcombined/resolve/main/tokenizer.model
+!cd /root/modelcombined && wget https://huggingface.co/datasets/notzero/modelcombined/resolve/main/tokenizer_config.json
+
 !cd llama.cpp && make
-
-#cd /kaggle/working/llama.cpp
-
 !cd /kaggle/working/llama.cpp && python convert.py /root/modelcombined
+
+!python -m pip install huggingface_hub
+!huggingface-cli login --token #
 
 # upload .bin ggml file
 from huggingface_hub import HfApi
@@ -181,6 +196,23 @@ api = HfApi()
 api.upload_file(
     path_or_fileobj="/root/modelcombined/ggml-model-f16.bin",
     path_in_repo="ggml-model-f16.bin",
+    repo_id="notzero/modelcombined",
+    repo_type="dataset",
+)
+
+# remove original downloaded model to save space
+!cd /root/modelcombined && rm pytorch_model-00001-of-00002.bin
+!cd /root/modelcombined && rm pytorch_model-00001-of-00002.bin
+
+# quantize to q4
+!cd llama.cpp && ./quantize /root/modelcombined/ggml-model-f16.bin //root/modelcombined/ggml-model-q4_0.bin q4_0
+
+# upload 
+from huggingface_hub import HfApi
+api = HfApi()
+api.upload_file(
+    path_or_fileobj="/root/modelcombined/ggml-model-q4_0.bin",
+    path_in_repo="ggml-model-q4_0.bin",
     repo_id="notzero/modelcombined",
     repo_type="dataset",
 )
