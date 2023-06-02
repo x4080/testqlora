@@ -1,0 +1,12 @@
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: What's the weather today
+AI: {"intent":"weather","context":"today"}
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: What's the weather tommorow
+AI: {"intent":"weather","context":"tommorow"}
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: whats your name ?
+AI: {"intent":"unknown","context":"unknown"}
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: What is the weather next month ?
+AI: {"intent":"weather","context":"next month"}
