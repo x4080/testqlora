@@ -10,3 +10,13 @@ AI: {"intent":"unknown","context":"unknown"}
 ## Instruction : AI will give JSON result from HUMAN text
 HUMAN: What is the weather next month ?
 AI: {"intent":"weather","context":"next month"}
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: who are you ?
+AI: {"intent":"unknown","context":"unknown"}
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: what are you ?
+AI: {"intent":"unknown","context":"unknown"}
+## Instruction : AI will give JSON result from HUMAN text
+HUMAN: who is trump ?
+AI: {"intent":"unknown","context":"unknown"}
+
