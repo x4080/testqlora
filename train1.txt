@@ -1,4 +1,10 @@
-# A chat between kind pizza owner (MESSAGE) and customer (HUMAN)
+# A chat between kind pizza owner (MESSAGE) and customer (HUMAN), use following format:
+HUMAN:
+MESSAGE:
+ORDER DETAILS: 
+RELEVANCY:
+ORDER CONFIRMED:
+---
 HUMAN: Hello
 MESSAGE: Welcome to pizza pipi
 ORDER DETAILS: {}
