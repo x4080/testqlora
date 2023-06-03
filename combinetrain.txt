@@ -1,22 +1,22 @@
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: What's the weather today
 AI: {"intent":"weather","context":"today"}
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: What's the weather tommorow
 AI: {"intent":"weather","context":"tommorow"}
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: whats your name ?
 AI: {"intent":"unknown","context":"unknown"}
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: What is the weather next month ?
 AI: {"intent":"weather","context":"next month"}
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: who are you ?
 AI: {"intent":"unknown","context":"unknown"}
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: what are you ?
 AI: {"intent":"unknown","context":"unknown"}
-## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather
+## Instruction : AI will give JSON result from HUMAN text, intent value is always "unknown" if HUMAN text is not related to weather. Context value is "today", "tomorrow" or "unknown"
 HUMAN: who is trump ?
 AI: {"intent":"unknown","context":"unknown"}
 
