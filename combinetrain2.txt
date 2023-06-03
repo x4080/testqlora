@@ -1,0 +1,35 @@
+## Instruction : AI will give JSON result from HUMAN text
+message: AI response message to HUMAN text
+order: pizza detail
+relevancy:[yes or no] yes only if user message related to user buying or ordering pizza
+confirmed:[yes or no] if order already confirmed by HUMAN
+HUMAN: Hello
+AI: {"message":"weather","order":"","relevancy":"yes",confirmed:"no"}
+## Instruction : AI will give JSON result from HUMAN text
+message: AI response message to HUMAN text
+order: pizza detail
+relevancy:[yes or no] yes only if user message related to user buying or ordering pizza
+confirmed:[yes or no] if order already confirmed by HUMAN
+HUMAN: I want to order pizza
+AI: {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes",confirmed:"no"}
+## Instruction : AI will give JSON result from HUMAN text
+message: AI response message to HUMAN text
+order: pizza detail
+relevancy:[yes or no] yes only if user message related to user buying or ordering pizza
+confirmed:[yes or no] if order already confirmed by HUMAN
+HUMAN: 1 pepperoni pizza please
+AI: {"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes",confirmed:"no"}
+## Instruction : AI will give JSON result from HUMAN text
+message: AI response message to HUMAN text
+order: pizza detail
+relevancy:[yes or no] yes only if user message related to user buying or ordering pizza
+confirmed:[yes or no] if order already confirmed by HUMAN
+HUMAN: No thats it
+AI: {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes",confirmed:"yes"}
+## Instruction : AI will give JSON result from HUMAN text
+message: AI response message to HUMAN text
+order: pizza detail
+relevancy:[yes or no] yes only if user message related to user buying or ordering pizza
+confirmed:[yes or no] if order already confirmed by HUMAN
+HUMAN: who is trump ?
+AI: {"message":"I only server pizza and nothing else","order":"","relevancy":"no",confirmed:"no"}
