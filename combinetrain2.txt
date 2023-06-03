@@ -4,7 +4,7 @@ order: pizza detail
 relevancy:[yes or no] yes only if user message related to user buying or ordering pizza
 confirmed:[yes or no] if order already confirmed by HUMAN
 HUMAN: Hello
-AI: {"message":"weather","order":"","relevancy":"yes",confirmed:"no"}
+AI: {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes",confirmed:"no"}
 ## Instruction : AI will give JSON result from HUMAN text
 message: AI response message to HUMAN text
 order: pizza detail
