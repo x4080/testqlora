@@ -1,25 +1,15 @@
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, response is pizza name and pizza quantity ordered by customer
-## Input :
-3 chicken pizza please
-## Response :
-chicken pizza, 3
+## Input : 3 chicken pizza please
+## Response : chicken pizza, 3
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, response is pizza name and pizza quantity ordered by customer
-## Input :
-2 pepperoni pizza please
-## Response :
-pepperoni pizza, 2
+## Input : 2 pepperoni pizza please
+## Response : pepperoni pizza, 2
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, response is pizza name and pizza quantity ordered by customer
-## Input :
-pepperoni pizza please
-## Response :
-pepperoni pizza, 1
+## Input : pepperoni pizza please
+## Response : pepperoni pizza, 1
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, response is pizza name and pizza quantity ordered by customer
-## Input :
-4 veggie pizza please
-## Response :
-veggie pizza, 4
+## Input : 4 veggie pizza please
+## Response : veggie pizza, 4
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, response is pizza name and pizza quantity ordered by customer
-## Input :
-who is trump
-## Response :
-unknown
+## Input : who is trump
+## Response : unknown

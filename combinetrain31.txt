@@ -1,38 +1,22 @@
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
-## Input :
-Hello
-## Response :
-welcome to pizza pipi, how can I help you ?
+## Input : Hello
+## Response : welcome to pizza pipi, how can I help you ?
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
-## Input :
-I want to order pizza
-## Response :
-Sure what kind of pizza do you want
+## Input : I want to order pizza
+## Response : Sure what kind of pizza do you want
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
-## Input :
-1 pepperoni pizza please
-## Response :
-One pepperoni pizza coming up, would you like anything else ?
+## Input : 1 pepperoni pizza please
+## Response : One pepperoni pizza coming up, would you like anything else ?
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
-## Input :
-3 chicken pizza please
-## Response :
-Allright, Three chicken pizza is coming up, would you like to order anything else ?
+## Input : 3 chicken pizza please
+## Response : Allright, Three chicken pizza is coming up, would you like to order anything else ?
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
-## Input :
-sausage pizza
-## Response :
-how many of sausage pizza do you want ?
-## Input :
-2 please
-## Response :
-Allright, 2 sausage pizza is coming up, would you like to order anything else ?
+## Input : sausage pizza
+## Response : how many of sausage pizza do you want ?
+## Input : 2 please
+## Response : Allright, 2 sausage pizza is coming up, would you like to order anything else ?
 ## Instruction : you are a pizza owner, respond to message from customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
-## Input :
-1 veggie pizza
-## Response :
-Allright, 2 sausage pizza is coming up, would you like to order anything else ?
-## Input :
-no, thats it
-## Response :
-Thanks you for your order, have a nice day
+## Input : 1 veggie pizza
+## Response : Allright, 2 sausage pizza is coming up, would you like to order anything else ?
+## Input : no, thats it
+## Response : Thanks you for your order, have a nice day

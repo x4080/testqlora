@@ -3,43 +3,33 @@ message: response message to input text
 order: pizza detail
 relevancy:[yes or no] yes only if input message related to input ordering pizza
 confirmed:[yes or no] if order already confirmed
-## Input :
-Hello
-## Response :
-{"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes",confirmed:"no"}
+## Input : Hello
+## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes",confirmed:"no"}
 ## Instruction : response is JSON formatted text from input text, using following format
 message: response message to input text
 order: pizza detail
 relevancy:[yes or no] yes only if input message related to input ordering pizza
 confirmed:[yes or no] if order already confirmed
-## Input :
-I want to order pizza
-## Response :
-{"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes",confirmed:"no"}
+## Input : I want to order pizza
+## Response : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes",confirmed:"no"}
 ## Instruction : response is JSON formatted text from input text, using following format
 message: response message to input text
 order: pizza detail
 relevancy:[yes or no] yes only if input message related to input ordering pizza
 confirmed:[yes or no] if order already confirmed
-## Input :
-1 pepperoni pizza please
-## Response :
-{"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes",confirmed:"no"}
+## Input : 1 pepperoni pizza please
+## Response : {"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes",confirmed:"no"}
 ## Instruction : response is JSON formatted text from input text, using following format
 message: response message to input text
 order: pizza detail
 relevancy:[yes or no] yes only if input message related to input ordering pizza
 confirmed:[yes or no] if order already confirmed
-## Input :
-No thats it
-## Response :
-{"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes",confirmed:"yes"}
+## Input : No thats it
+## Response : {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes",confirmed:"yes"}
 ## Instruction : response is JSON formatted text from input text, using following format
 message: response message to input text
 order: pizza detail
 relevancy:[yes or no] yes only if input message related to input ordering pizza
 confirmed:[yes or no] if order already confirmed
-## Input :
-who is trump ?
-## Response :
-{"message":"I only server pizza and nothing else","order":"","relevancy":"no",confirmed:"no"}
+## Input : who is trump ?
+## Response : {"message":"I only server pizza and nothing else","order":"","relevancy":"no",confirmed:"no"}
