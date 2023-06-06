@@ -18,6 +18,14 @@
 ## JSONResponse : {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"yes"}
 ## Input : who is trump ?
 ## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+## Input : who are you?
+## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+## Input : who is biden ?
+## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+## Input : whats the weather like ?
+## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+## Input : whats trending?
+## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
 ## Input : Good morning
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : Whats happening
