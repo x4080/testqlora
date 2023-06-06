@@ -1,44 +1,22 @@
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
 ## Input : Hello
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,"confirmed": yes, if order already confirmed}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : I want to order pizza
-## Response : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,"confirmed": yes, if order already confirmed}
+## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : 1 pepperoni pizza please
-## Response : {"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,"confirmed": yes, if order already confirmed}
+## JSONResponse : {"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"no"}
 ## Input : No thats it
-## Response : {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"yes"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,"confirmed": yes, if order already confirmed}
+## JSONResponse : {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"yes"}
 ## Input : who is trump ?
-## Response : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
+## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
 ## Input : Good morning
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : Whats happening
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : Whats up
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : Bonjour
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : Ola
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
-## Instruction : you response to customer ordering pizza, response is JSON formatted text from input text, using following format :
-{message: your response message to input text,order: "pizza name,quantity",relevancy: yes only if input related to pizza,confirmed: yes, if order already confirmed}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : Halo
-## Response : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
