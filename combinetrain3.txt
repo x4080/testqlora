@@ -2,8 +2,18 @@
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : I want to order pizza
 ## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
+## Input : I want to some pizza please
+## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
+## Input : I like to buy pizza
+## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
 ## Input : 1 pepperoni pizza please
 ## JSONResponse : {"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"no"}
+## Input : 1 cheese pizza please
+## JSONResponse : {"message":"One cheese pizza coming up, would you like anything else ?","order":"cheese pizza,1","relevancy":"yes","confirmed":"no"}
+## Input : 2 pepperoni pizza please
+## JSONResponse : {"message":"Two pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,2","relevancy":"yes","confirmed":"no"}
+## Input : 8 pepperoni pizza please
+## JSONResponse : {"message":"Eight pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,8","relevancy":"yes","confirmed":"no"}
 ## Input : No thats it
 ## JSONResponse : {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"yes"}
 ## Input : who is trump ?
