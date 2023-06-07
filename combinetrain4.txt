@@ -3,41 +3,98 @@ relevancy value is no if input text is not related to pizza
 order value is "pizza name, quantity" from input text
 ## Input : Hello
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : I want to order pizza
 ## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : I want to some pizza please
 ## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : I like to buy pizza
 ## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : 1 pepperoni pizza please
 ## JSONResponse : {"message":"One pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : 1 cheese pizza please
 ## JSONResponse : {"message":"One cheese pizza coming up, would you like anything else ?","order":"cheese pizza,1","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : 2 pepperoni pizza please
 ## JSONResponse : {"message":"Two pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,2","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : 8 pepperoni pizza please
 ## JSONResponse : {"message":"Eight pepperoni pizza coming up, would you like anything else ?","order":"pepperoni pizza,8","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : No thats it
 ## JSONResponse : {"message":"Allright","order":"pepperoni pizza,1","relevancy":"yes","confirmed":"yes"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : who is trump ?
 ## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : who are you?
 ## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : who is biden ?
 ## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : whats the weather like ?
 ## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : whats trending?
 ## JSONResponse : {"message":"I only server pizza and nothing else","order":"","relevancy":"no","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : Good morning
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : Whats happening
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : Whats up
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : Bonjour
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : Ola
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
+message is respond from input text related to pizza order
+relevancy value is no if input text is not related to pizza
+order value is "pizza name, quantity" from input text
 ## Input : Halo
 ## JSONResponse : {"message":"welcome to pizza pipi, can I help you?","order":"","relevancy":"yes","confirmed":"no"}
