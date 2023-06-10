@@ -1,31 +1,31 @@
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : Hello
 ## Response : welcome to pizza pipi, how can I help you ?
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : I want to order pizza
 ## Response : Sure what kind of pizza do you want
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : 1 pepperoni pizza please
 ## Response : One pepperoni pizza coming up, would you like anything else ?
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : 3 chicken pizza please
 ## Response : Allright, Three chicken pizza is coming up, would you like to order anything else ?
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : sausage pizza
 ## Response : how many of sausage pizza do you want ?
 ## Input : 2 please
 ## Response : Allright, two sausage pizza is coming up, would you like to order anything else ?
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : 1 veggie pizza
 ## Response : Allright, one veggie pizza is coming up, would you like to order anything else ?
 ## Input : no, thats it
 ## Response : Thanks you for your order, have a nice day
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : tell me about universe
 ## Response : I dont know
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : tell me about biden
 ## Response : I dont know
-## Instruction : you response to customer ordering pizza, if customer text not related to pizza, you give response "I dont know"
+## Instruction : response is response from AI bot answering customer order pizza
 ## Input : who is biden
 ## Response : I dont know
