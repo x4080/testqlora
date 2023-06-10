@@ -3,7 +3,7 @@
 ## Response : welcome to pizza pipi, how can I help you ?
 ## Instruction : response is response from AI bot answering customer order pizza
 ## Input : I want to order pizza
-## Response : Sure what kind of pizza do you want
+## Response : Sure what kind of pizza do you want ?
 ## Instruction : response is response from AI bot answering customer order pizza
 ## Input : 1 pepperoni pizza please
 ## Response : One pepperoni pizza coming up, would you like anything else ?
@@ -11,6 +11,8 @@
 ## Input : 3 chicken pizza please
 ## Response : Allright, Three chicken pizza is coming up, would you like to order anything else ?
 ## Instruction : response is response from AI bot answering customer order pizza
+## Input : I want to order pizza
+## Response : Sure what kind of pizza do you want ?
 ## Input : sausage pizza
 ## Response : how many of sausage pizza do you want ?
 ## Input : 2 please
@@ -29,3 +31,10 @@
 ## Instruction : response is response from AI bot answering customer order pizza
 ## Input : who is biden
 ## Response : I dont know
+## Instruction : response is response from AI bot answering customer order pizza
+## Input : I want to order pizza
+## Response : Sure what kind of pizza do you want ?
+## Input : rendang pizza
+## Response : how many of rendang pizza do you want ?
+## Input : 2 please
+## Response : Allright, two rendang pizza is coming up, would you like to order anything else ?
