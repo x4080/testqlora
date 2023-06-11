@@ -1,35 +1,35 @@
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What's the weather today",
-    "output":" {\"intent\":\"weather\",\"context\":\"today\"}"
+    "response":" {\"intent\":\"weather\",\"context\":\"today\"}"
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What's the weather tommorow",
-    "output":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
+    "response":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"whats your name ?",
-    "output":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
+    "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What is the weather next month ?",
-    "output":" {\"intent\":\"weather\",\"context\":\"unknown\"}"
+    "response":" {\"intent\":\"weather\",\"context\":\"unknown\"}"
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"who are you ?",
-    "output":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
+    "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"what are you ?",
-    "output":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
+    "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"who is trump ?",
-    "output":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
+    "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
