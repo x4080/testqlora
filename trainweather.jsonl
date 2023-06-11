@@ -5,6 +5,16 @@
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Will it rain ?",
+    "response":" {\"intent\":\"weather\",\"context\":\"today\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Snow is coming tonight ?",
+    "response":" {\"intent\":\"weather\",\"context\":\"today\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What's the weather tommorow",
     "response":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
 }
