@@ -43,3 +43,28 @@
     "input":"who is trump ?",
     "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"What's the weather today",
+    "response":"Bagaimana cuaca hari ini"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"What's the weather tommorow",
+    "response":"Bagaimana kondisi cuaca besok"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"Will it rain ?",
+    "response":"Apakah nanti akan hujan ?"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"Snow is coming tonight ?",
+    "response":"Apakah nanti malam akan turun salju ?"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"who is trump ?",
+    "response":"Siapakah trump ?"
+}
