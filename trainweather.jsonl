@@ -1,69 +1,83 @@
 {
+    "id":"1",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What's the weather today",
     "response":" {\"intent\":\"weather\",\"context\":\"today\"}"
 }
 {
+    "id":"2",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"Will it rain ?",
     "response":" {\"intent\":\"weather\",\"context\":\"today\"}"
 }
 {
+    "id":"3",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"Snow is coming tonight ?",
     "response":" {\"intent\":\"weather\",\"context\":\"today\"}"
 }
 {
+    "id":"4",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What's the weather tommorow",
     "response":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
 }
 {
+    "id":"5",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"whats your name ?",
     "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
+    "id":"6",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"What is the weather next month ?",
     "response":" {\"intent\":\"weather\",\"context\":\"unknown\"}"
 }
 {
+    "id":"7",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"who are you ?",
     "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
+    "id":"8",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"what are you ?",
     "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
+    "id":"9",
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"who is trump ?",
     "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
+    "id":"10",
     "instruction":"Translate to Indonesian language",
     "input":"What's the weather today",
     "response":"Bagaimana cuaca hari ini"
 }
 {
+    "id":"11",
     "instruction":"Translate to Indonesian language",
     "input":"What's the weather tommorow",
     "response":"Bagaimana kondisi cuaca besok"
 }
 {
+    "id":"12",
     "instruction":"Translate to Indonesian language",
     "input":"Will it rain ?",
     "response":"Apakah nanti akan hujan ?"
 }
 {
+    "id":"13",
     "instruction":"Translate to Indonesian language",
     "input":"Snow is coming tonight ?",
     "response":"Apakah nanti malam akan turun salju ?"
 }
 {
+    "id":"14",
     "instruction":"Translate to Indonesian language",
     "input":"who is trump ?",
     "response":"Siapakah trump ?"
