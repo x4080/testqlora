@@ -1,3 +1,6 @@
+# Apakah akan hujan besok ? works
+Apakah besok hujan, works but context is besok
+
 # Train until loss is 1.1 or 1.2, see after training finished training_loss=...
 TrainOutput(global_step=20, training_loss=1.0630455672740937, metrics={'train_runtime': 111.1406, 'train_samples_per_second': 0.72, 'train_steps_per_second': 0.18, 'total_flos': 19714939895808.0, 'train_loss': 1.0630455672740937, 'epoch': 0.8})
 

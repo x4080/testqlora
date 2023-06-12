@@ -1,0 +1,105 @@
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"What's the weather today",
+    "response":" {\"intent\":\"weather\",\"time\":\"today\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Will it rain ?",
+    "response":" {\"intent\":\"weather\",\"time\":\"today\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Snow is coming tonight ?",
+    "response":" {\"intent\":\"weather\",\"time\":\"today\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"What's the weather tommorow",
+    "response":" {\"intent\":\"weather\",\"time\":\"tommorow\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"whats your name ?",
+    "response":" {\"intent\":\"unknown\",\"time\":\"unknown\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"What is the weather next month ?",
+    "response":" {\"intent\":\"weather\",\"time\":\"unknown\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"who are you ?",
+    "response":" {\"intent\":\"unknown\",\"time\":\"unknown\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"what are you ?",
+    "response":" {\"intent\":\"unknown\",\"time\":\"unknown\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"who is trump ?",
+    "response":" {\"intent\":\"unknown\",\"time\":\"unknown\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Will snow fall tommorow",
+    "response":" {\"intent\":\"weather\",\"time\":\"tommorow\"}"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"What's the weather today",
+    "response":"Bagaimana cuaca hari ini"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"What's the weather tommorow",
+    "response":"Bagaimana kondisi cuaca besok"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"Will it rain ?",
+    "response":"Apakah nanti akan hujan ?"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"Snow is coming tonight ?",
+    "response":"Apakah nanti malam akan turun salju ?"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"who is trump ?",
+    "response":"Siapakah trump ?"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"Will it rain tommorow ?",
+    "response":"Apakah besok akan hujan ?"
+}
+{
+    "instruction":"Translate to Indonesian language",
+    "input":"Tommorow",
+    "response":"Besok"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Besok",
+    "response":"Tommorow"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Apakah besok akan hujan ?",
+    "response":"Will it rain tommorow ?"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Siapakah trump ?",
+    "response":"who is trump ?"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Apakah nanti malam akan turun salju ?",
+    "response":"Snow is coming tonight ?"
+}
