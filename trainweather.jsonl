@@ -44,6 +44,11 @@
     "response":" {\"intent\":\"unknown\",\"context\":\"unknown\"}"
 }
 {
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Will snow fall tommorow",
+    "response":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
+}
+{
     "instruction":"Translate to Indonesian language",
     "input":"What's the weather today",
     "response":"Bagaimana cuaca hari ini"
@@ -74,7 +79,27 @@
     "response":"Apakah besok akan hujan ?"
 }
 {
-    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
-    "input":"Will snow fall tommorow",
-    "response":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
+    "instruction":"Translate to Indonesian language",
+    "input":"Tommorow",
+    "response":"Besok"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Besok",
+    "response":"Tommorow"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Apakah besok akan hujan ?",
+    "response":"Will it rain tommorow ?"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Siapakah trump ?",
+    "response":"who is trump ?"
+}
+{
+    "instruction":"Translate to English language from Indonesian language",
+    "input":"Apakah nanti malam akan turun salju ?",
+    "response":"Snow is coming tonight ?"
 }
