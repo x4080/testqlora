@@ -82,3 +82,9 @@
     "input":"who is trump ?",
     "response":"Siapakah trump ?"
 }
+{
+    "id":"15",
+    "instruction":"Translate to Indonesian language",
+    "input":"Will it rain tommorow ?",
+    "response":"Apakah besok akan hujan ?"
+}
