@@ -88,3 +88,9 @@
     "input":"Will it rain tommorow ?",
     "response":"Apakah besok akan hujan ?"
 }
+{
+    "id":"16",
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. Context value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"Will snow fall tommorow",
+    "response":" {\"intent\":\"weather\",\"context\":\"tommorow\"}"
+}
