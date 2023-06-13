@@ -1,5 +1,21 @@
 {
     "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Siapa itu kaesang ?",
+    "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
+}
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Cerita tentang kucing?",
+    "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
+}
+
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Apakah kamu AI ?",
+    "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
+}
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Bagaimana cuaca hari ini ?",
     "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
 }
@@ -31,6 +47,11 @@
 {
     "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Siapakah Trump ?",
+    "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
+}
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Kamu itu siapa ?",
     "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
 }
 {
