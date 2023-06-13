@@ -1,40 +1,40 @@
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Bagaimana cuaca hari ini ?",
-    "response":" {\"intent\":\"cuaca\",\"waktu\":\"hari ini\"}"
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Bagaimana cuaca besok ?",
-    "response":" {\"intent\":\"cuaca\",\"waktu\":\"besok\"}"
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"besok\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Apakah hari ini akan hujan ?",
-    "response":" {\"intent\":\"cuaca\",\"waktu\":\"hari ini\"}"
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Besok akan hujankah ?",
-    "response":" {\"intent\":\"cuaca\",\"waktu\":\"besok\"}"
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"besok\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Hari ini hujan ?",
-    "response":" {\"intent\":\"cuaca\",\"waktu\":\"hari ini\"}"
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Besok akan hujan ?",
-    "response":" {\"intent\":\"cuaca\",\"waktu\":\"besok\"}"
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"besok\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Siapakah Trump ?",
-    "response":" {\"intent\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
+    "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
 }
 {
-    "instruction":"Jawab dengan format JSON, isi intent selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Siapa namamu ?",
-    "response":" {\"intent\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
+    "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
 }
