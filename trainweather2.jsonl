@@ -20,6 +20,11 @@
 }
 {
     "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
+    "input":"did it rain yesterday ?",
+    "response":" {\"intent\":\"weather\",\"time\":\"unknown\"}"
+}
+{
+    "instruction":"Give JSON result. intent value is always \"unknown\" if input is not related to weather. time value is \"today\", \"tomorrow\" or \"unknown\"",
     "input":"whats your name ?",
     "response":" {\"intent\":\"unknown\",\"time\":\"unknown\"}"
 }
