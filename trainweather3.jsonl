@@ -8,7 +8,6 @@
     "input":"Cerita tentang kucing?",
     "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
 }
-
 {
     "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
     "input":"Apakah kamu AI ?",
