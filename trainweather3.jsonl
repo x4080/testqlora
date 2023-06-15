@@ -58,3 +58,23 @@
     "input":"Siapa namamu ?",
     "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
 }
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Nanti malam hujan ?",
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
+}
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Apakah malam ini hujan ?",
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
+}
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Apakah hujan turun malam ini ?",
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
+}
+{
+    "instruction":"Jawab dengan format JSON, isi maksud selalu \"tidak tahu\" bila input tidak berhubungan dengan cuaca, isi waktu adalah \"hari ini\", \"besok\" atau \"tidak tahu\" ",
+    "input":"Apakah malam ini berawan ?",
+    "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
+}
