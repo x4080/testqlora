@@ -78,3 +78,8 @@
     "input":"Apakah malam ini berawan ?",
     "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
 }
+{
+    "instruction":"Sebutkan kata yang berhubungan dengan cuaca",
+    "input":"",
+    "response":"hujan, angin, petir, berawan, lembab, panas, terik"
+}
