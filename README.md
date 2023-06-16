@@ -1,3 +1,8 @@
+{
+    "instruction":"Sebutkan kata yang berhubungan dengan cuaca",
+    "input":"",
+    "response":"hujan, angin, petir, berawan, lembab, panas, terik"
+}
 # Apakah akan hujan besok ? works
 Apakah besok hujan, works but context is besok
 
