@@ -13,7 +13,7 @@
     "input":"Apakah kamu AI ?",
     "response":" {\"maksud\":\"tidak tahu\",\"waktu\":\"tidak tahu\"}"
 }
-{
+{]
     "instruction":"Jawab dengan format JSON\n{\"maksud\":\"cuaca|tidak tahu\",\"waktu\":\"hari ini|besok|tidak tahu\"}",
     "input":"Bagaimana cuaca hari ini ?",
     "response":" {\"maksud\":\"cuaca\",\"waktu\":\"hari ini\"}"
