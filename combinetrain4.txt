@@ -11,7 +11,7 @@ order value is "pizza name, quantity" from input text
 message is respond from input text related to pizza order
 relevancy value is no if input text is not related to pizza
 order value is "pizza name, quantity" from input text
-## Input : I want to some pizza please
+## Input : I want some pizza please
 ## JSONResponse : {"message":"Sure what kind of pizza do you want","order":"","relevancy":"yes","confirmed":"no"}
 message is respond from input text related to pizza order
 relevancy value is no if input text is not related to pizza
