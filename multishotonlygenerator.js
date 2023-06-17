@@ -131,6 +131,13 @@ Pizza Owner : Allright, good bye`
 Customer : what is the weather like ?
 Pizza Owner : I only server pizza and nothing else`
     },
+    {
+        instruction: `Here's a chat between pizza owner and customer`,
+        input: ``,
+        response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
+Customer : Who is Trump ?
+Pizza Owner : I only server pizza and nothing else`
+    },
 
 ]
 
