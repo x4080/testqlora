@@ -110,7 +110,7 @@ order value is "pizza name, quantity" from input text`,
         instruction: `message is respond from input text related to pizza order
 intent value is unknown if not related to pizza
 order value is "pizza name, quantity" from input text`,
-        input: `is it going to rain`,
+        input: ``,
         response: `{"message":"I only server pizza and nothing else","order":"","intent":"unknown","confirmed":"no"}`
     },
 //     {
