@@ -110,34 +110,34 @@ order value is "pizza name, quantity" from input text`,
         instruction: `message is respond from input text related to pizza order
 intent value is unknown if not related to pizza
 order value is "pizza name, quantity" from input text`,
-        input: ``,
+        input: `Whats the weather`,
         response: `{"message":"I only server pizza and nothing else","order":"","intent":"unknown","confirmed":"no"}`
     },
-//     {
-//         instruction: `Here's a chat between pizza owner and customer`,
-//         input: ``,
-//         response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
-// Customer : I like to buy some pizza please
-// Pizza Owner : Sure what kind of pizza do you want ?
-// Customer : 2 pepperoni pizza please
-// Pizza Owner : Two pepperoni pizza coming up, would you like anything else ?
-// Customer : No thats all
-// Pizza Owner : Allright, good bye`
-//     },
-//     {
-//         instruction: `Here's a chat between pizza owner and customer`,
-//         input: ``,
-//         response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
-// Customer : what is the weather like ?
-// Pizza Owner : I only server pizza and nothing else`
-//     },
-//     {
-//         instruction: `Here's a chat between pizza owner and customer`,
-//         input: ``,
-//         response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
-// Customer : Who is Trump ?
-// Pizza Owner : I only server pizza and nothing else`
-//     },
+    {
+        instruction: `Here's a chat between pizza owner and customer`,
+        input: ``,
+        response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
+Customer : I like to buy some pizza please
+Pizza Owner : Sure what kind of pizza do you want ?
+Customer : 2 pepperoni pizza please
+Pizza Owner : Two pepperoni pizza coming up, would you like anything else ?
+Customer : No thats all
+Pizza Owner : Allright, good bye`
+    },
+    //     {
+    //         instruction: `Here's a chat between pizza owner and customer`,
+    //         input: ``,
+    //         response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
+    // Customer : what is the weather like ?
+    // Pizza Owner : I only server pizza and nothing else`
+    //     },
+    //     {
+    //         instruction: `Here's a chat between pizza owner and customer`,
+    //         input: ``,
+    //         response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
+    // Customer : Who is Trump ?
+    // Pizza Owner : I only server pizza and nothing else`
+    //     },
 
 ]
 
