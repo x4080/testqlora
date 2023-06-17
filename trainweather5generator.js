@@ -97,8 +97,18 @@ let array = [
 {"maksud":"cuaca|tidak tahu","waktu":"hari ini|besok|tidak tahu"}`,
         input: `Apakah malam ini berawan ?`,
         response: `{"maksud":"cuaca","waktu":"hari ini"}`
+    },{
+        instruction: `Jawab dengan format JSON
+{"maksud":"cuaca|tidak tahu","waktu":"hari ini|besok|tidak tahu"}`,
+        input: `Apakah malam ini ada petir ?`,
+        response: `{"maksud":"cuaca","waktu":"hari ini"}`
     },
-
+    {
+        instruction: `Jawab dengan format JSON
+{"maksud":"cuaca|tidak tahu","waktu":"hari ini|besok|tidak tahu"}`,
+        input: `Apakah besok akan ada petir ?`,
+        response: `{"maksud":"cuaca","waktu":"besok"}`
+    },
 ]
 
 fs.writeFile(filename, '', (err) => {
