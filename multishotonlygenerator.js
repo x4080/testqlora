@@ -106,13 +106,13 @@ order value is "pizza name, quantity" from input text`,
         input: `who is trump`,
         response: `{"message":"I only server pizza and nothing else","order":"","intent":"unknown","confirmed":"no"}`
     },
-    {
-        instruction: `message is respond from input text related to pizza order
-intent value is unknown if not related to pizza
-order value is "pizza name, quantity" from input text`,
-        input: `Whats the weather`,
-        response: `{"message":"I only server pizza and nothing else","order":"","intent":"unknown","confirmed":"no"}`
-    },
+//     {
+//         instruction: `message is respond from input text related to pizza order
+// intent value is unknown if not related to pizza
+// order value is "pizza name, quantity" from input text`,
+//         input: `Whats the weather`,
+//         response: `{"message":"I only server pizza and nothing else","order":"","intent":"unknown","confirmed":"no"}`
+//     },
     {
         instruction: `Here's a chat between pizza owner and customer`,
         input: ``,
