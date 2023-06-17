@@ -123,18 +123,7 @@ Customer : 2 pepperoni pizza please
 Pizza Owner : Two pepperoni pizza coming up, would you like anything else ?
 Customer : No thats all
 Pizza Owner : Allright, good bye`
-    },
-    {
-        instruction: `Here's a chat between pizza owner and customer`,
-        input: ``,
-        response: `Pizza Owner : Welcome to pizza Pipi, can I help you ?
-Customer : I like to buy some pizza please
-Pizza Owner : Sure what kind of pizza do you want ?
-Customer : 2 pepperoni pizza please
-Pizza Owner : Two pepperoni pizza coming up, would you like anything else ?
-Customer : No thats all
-Pizza Owner : Allright, good bye`
-    },    
+    } 
 ]
 
 fs.writeFile(filename, '', (err) => {
