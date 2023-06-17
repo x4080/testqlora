@@ -16,10 +16,10 @@ order value is "pizza name, quantity" from input text`,
         input: `Whats happening`,
         response: `{"message":"welcome to pizza pipi, can I help you?","order":"","intent":"order","confirmed":"no"}`
     }, {
-        inpinstruction:`message is respond from input text related to pizza order
+        instruction:`message is respond from input text related to pizza order
 intent value is unknown if not related to pizza
 order value is "pizza name, quantity" from input text`,
-        ut: `Whats up`,
+        input: `Whats up`,
         response: `{"message":"welcome to pizza pipi, can I help you?","order":"","intent":"order","confirmed":"no"}`
     },
     {
