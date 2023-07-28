@@ -1,3 +1,5 @@
+# train using huggingface or github sync is the same, the difference is how many data, min 24 ?
+
 # Error if input value is empty when training
 {
     "instruction":"Sebutkan kata yang berhubungan dengan cuaca",
