@@ -1,3 +1,7 @@
+# notworking.jsonl is the latest that works
+
+# Merge lora needs 20GB of memory for just 7B parameter llama -> kaggle merge lora 2, combine base model and lora
+
 # train using huggingface or github sync is the same, the difference is how many data, min 24 ?
 
 # Error if input value is empty when training
