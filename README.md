@@ -1,4 +1,7 @@
-# notworking.jsonl is the latest that works
+# It seems date processing will not work (bacause of math) ex: today is 30/01/2000, next week is 07/2/2000 (but not work)
+    - using wizard vicuna sharded is better "hiepnh/Wizard-Vicuna-7B-Uncensored-HF-sharded" (llama1)
+
+# llama2data.jsonl is the latest that works
 
 # Merge lora needs 20GB of memory for just 7B parameter llama -> kaggle merge lora 2, combine base model and lora
 
