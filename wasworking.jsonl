@@ -1,0 +1,8 @@
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : Whats the weather like today ?\n### Response : Related to weather\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : What's your name ?\n### Response : Related to other topic\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : Tell me about trump\n### Response : Related to other topic\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : Will it rain today ?\n### Response : Related to weather\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : Explain why you so smart\n### Response : Related to other topic\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : Will it snow today ?\n### Response : Related to weather\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : Is thunderstorm coming ?\n### Response : Related to weather\n"}
+{"text":"### Instruction : Choose from (\"weather\" or \"other topic\") what instruction is related to\n### Input : I want to order pizza\n### Response : Related to other topic\n"}
