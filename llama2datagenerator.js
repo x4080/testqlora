@@ -28,7 +28,7 @@ let array = [
         response: `Related to : weather, detail : snow, when : today`
     },    
     {
-        instruction: `Today's date is 05/01/2023 (dd/mm/yyyy). Choose from ('weather' or 'other topic') what input is related to`,
+        instruction: `Choose from ('weather' or 'other topic') what input is related to`,
         input: `Will it snow tommorow ?`,
         response: `Related to : weather, detail : snow, when : tommorow`
     },    
