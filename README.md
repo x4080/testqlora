@@ -3,6 +3,8 @@ Choose from ('weather' or 'other topic')
 
 # It seems date processing will not work (bacause of math) ex: today is 30/01/2000, next week is 07/2/2000 (but not work)
     - using wizard vicuna sharded is better "hiepnh/Wizard-Vicuna-7B-Uncensored-HF-sharded" (llama1)
+    - using when : today works
+    - testing using how many days from today : -1 (yesterday)
 
 # llama2data.jsonl is the latest that works
 
