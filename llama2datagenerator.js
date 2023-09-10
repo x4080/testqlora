@@ -12,53 +12,68 @@ let array = [
     },
     {
         instruction: instruction,
+        input: `Apakah kemarin hujan ?`,
+        response: `Related to : weather, detail : rain, when : today, how many days from today : -1`
+    },
+    {
+        instruction: instruction,
         input: `Apakah hari ini akan hujan ?`,
-        response: `Related to : weather, detail : rain, when : today`
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
         input: `Apakah besok akan hujan ?`,
-        response: `Related to : weather, detail : rain, when : tommorow`
+        response: `Related to : weather, detail : rain, when : tommorow, how many days from today : 1`
     },
     {
         instruction: instruction,
         input: `Apakah minggu depan akan hujan ?`,
-        response: `Related to : weather, detail : rain, when : next week`
+        response: `Related to : weather, detail : rain, when : next week, how many days from today : 7`
     },
     {
         instruction: instruction,
         input: `Whats the weather like next week ?`,
-        response: `Related to : weather, detail : weather, when : next week`
+        response: `Related to : weather, detail : weather, when : next week, how many days from today : 0`
     },
     {
         instruction: instruction,
         input: `Whats the weather like today ?`,
-        response: `Related to : weather, detail : weather, when : today`
+        response: `Related to : weather, detail : weather, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
         input: `Will it rain today ?`,
-        response: `Related to : weather, detail : rain, when : today`
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        input: `Will it rain 2 days from now ?`,
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 2`
+    },
+    {
+        instruction: instruction,
+        input: `Is it raining yesterday ?`,
+        response: `Related to : weather, detail : rain, when : today, how many days from today : -1`
     },
     {
         instruction: instruction,
         input: `Will it rain next week ?`,
-        response: `Related to : weather, detail : rain, when : next week`
+        response: `Related to : weather, detail : rain, when : next week, how many days from today : 7`
     },
     {
         instruction: instruction,
         input: `Will it snow today ?`,
-        response: `Related to : weather, detail : snow, when : today`
+        response: `Related to : weather, detail : snow, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
         input: `Will it snow tommorow ?`,
-        response: `Related to : weather, detail : snow, when : tommorow`
+        response: `Related to : weather, detail : snow, when : tommorow, how many days from today : 1`
     },
     {
         instruction: instruction,
         input: `Is thunderstorm coming ?`,
-        response: `Related to : weather, detail : thunderstorm, when : today`
+        response: `Related to : weather, detail : thunderstorm, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
