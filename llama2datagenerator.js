@@ -22,6 +22,11 @@ let array = [
     },
     {
         instruction: instruction,
+        input: `Apakah 2 hari lagi akan hujan ?`,
+        response: `Related to : weather, detail : rain, when : 2 days from now, how many days from today : 2`
+    },
+    {
+        instruction: instruction,
         input: `Apakah besok akan hujan ?`,
         response: `Related to : weather, detail : rain, when : tommorow, how many days from today : 1`
     },
@@ -48,7 +53,7 @@ let array = [
     {
         instruction: instruction,
         input: `Will it rain 2 days from now ?`,
-        response: `Related to : weather, detail : rain, when : today, how many days from today : 2`
+        response: `Related to : weather, detail : rain, when : 2 days from now, how many days from today : 2`
     },
     {
         instruction: instruction,
