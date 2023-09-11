@@ -49,12 +49,25 @@ let array = [
     },
     {
         instruction: instruction,
+        last_context:`rain`,
+        input: `Whats the weather like next week ?`,
+        response: `Related to : weather, detail : weather, when : next week, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        last_context:`snow`,
+        input: `Whats the weather like today ?`,
+        response: `Related to : weather, detail : weather, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
         last_context:``,
         input: `Whats the weather like today ?`,
         response: `Related to : weather, detail : weather, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
+        last_context:``,
         input: `Will it rain today ?`,
         response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
     },
@@ -126,9 +139,21 @@ let array = [
     },
     {
         instruction: instruction,
+        last_context:`rain`,
+        input: `Will it snow today ?`,
+        response: `Related to : weather, detail : snow, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
         last_context:``,
         input: `Will it snow tommorow ?`,
         response: `Related to : weather, detail : snow, when : tommorow, how many days from today : 1`
+    },
+    {
+        instruction: instruction,
+        last_context:`rain`,
+        input: `Is thunderstorm coming ?`,
+        response: `Related to : weather, detail : thunderstorm, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
