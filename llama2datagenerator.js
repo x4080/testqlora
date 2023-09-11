@@ -15,7 +15,7 @@ let array = [
         instruction: instruction,
         last_context:``,
         input: `Apakah kemarin hujan ?`,
-        response: `Related to : weather, detail : rain, when : today, how many days from today : -1`
+        response: `Related to : weather, detail : rain, when : yesterday, how many days from today : -1`
     },
     {
         instruction: instruction,
@@ -75,6 +75,18 @@ let array = [
         last_context:`rain`,
         input: `What about today ?`,
         response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        last_context:`rain`,
+        input: `What about 2 days from now ?`,
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 2`
+    },
+    {
+        instruction: instruction,
+        last_context:`snow`,
+        input: `What about 3 days from now ?`,
+        response: `Related to : weather, detail : snow, when : today, how many days from today : 3`
     },
     {
         instruction: instruction,
