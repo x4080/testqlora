@@ -169,8 +169,20 @@ let array = [
     },
     {
         instruction: instruction,
+        context:`rain`,
+        input: `What's your name ?`,
+        response: othertopic
+    },
+    {
+        instruction: instruction,
         context:``,
         input: `Tell me about trump`,
+        response: othertopic
+    },
+    {
+        instruction: instruction,
+        context:`thunderstorm`,
+        input: `Explain why you so smart`,
         response: othertopic
     },
     {
@@ -182,6 +194,12 @@ let array = [
     {
         instruction: instruction,
         context:``,
+        input: `I want to order pizza`,
+        response: othertopic
+    },
+    {
+        instruction: instruction,
+        context:`weather`,
         input: `I want to order pizza`,
         response: othertopic
     },
