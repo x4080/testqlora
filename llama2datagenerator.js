@@ -97,9 +97,27 @@ let array = [
     },
     {
         instruction: instruction,
+        context:`rain`,
+        input: `What about 10 days from now ?`,
+        response: `Related to : weather, detail : rain, when : 10 days from now, how many days from today : 10`
+    },
+    {
+        instruction: instruction,
+        context:`rain`,
+        input: `How about 10 days from now ?`,
+        response: `Related to : weather, detail : rain, when : 10 days from now, how many days from today : 10`
+    },
+    {
+        instruction: instruction,
         context:`snow`,
         input: `What about 3 days from now ?`,
         response: `Related to : weather, detail : snow, when : 3 days from now, how many days from today : 3`
+    },
+    {
+        instruction: instruction,
+        context:`snow`,
+        input: `What about 15 days from now ?`,
+        response: `Related to : weather, detail : snow, when : 15 days from now, how many days from today : 15`
     },
     {
         instruction: instruction,
