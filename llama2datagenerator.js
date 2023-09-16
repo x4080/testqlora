@@ -15,7 +15,7 @@ let array = [
         instruction: instruction,
         context:`rain`,
         input: `bagaimana dengan hari ini ?`,
-        response: `Related to : weather, detail : rain, when : todau, how many days from today : 0`
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
     },
     {
         instruction: instruction,
