@@ -13,6 +13,18 @@ let array = [
     },
     {
         instruction: instruction,
+        context:`rain`,
+        input: `bagaimana dengan hari ini ?`,
+        response: `Related to : weather, detail : rain, when : todau, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        context:`thunderstorm`,
+        input: `bagaimana dengan besok ?`,
+        response: `Related to : weather, detail : thunderstorm, when : tommorow, how many days from today : 1`
+    },
+    {
+        instruction: instruction,
         context:``,
         input: `Apakah kemarin hujan ?`,
         response: `Related to : weather, detail : rain, when : yesterday, how many days from today : -1`
