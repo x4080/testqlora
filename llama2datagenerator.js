@@ -1,7 +1,7 @@
 const filename = "llama2data.jsonl"
 const fs = require('fs');
 
-let instruction = `One of ('weather' or 'other topic') what input is related to, input can be in indonesian or english, response always in english. Detail is from context if not available in input`
+let instruction = `Related to value is one of ('weather' or 'other topic') based on input value, input can be in indonesian or english, response always in english. Detail is from context if not available in input`
 let othertopic = `Related to : other topic`
 
 let array = [
