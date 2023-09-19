@@ -1,7 +1,7 @@
 const filename = "llama2data.jsonl"
 const fs = require('fs');
 
-let instruction = `Choose from one of ('weather' or 'other topic') what input is related to, input can be in indonesian or english, response always in english. Detail is from context if not available in input`
+let instruction = `Choose from one of ('weather' or 'other topic') what input is related to, input can be in indonesian or english, response always in english`
 let othertopic = `Related to : other topic`
 
 let array = [
@@ -243,15 +243,17 @@ fs.writeFile(filename, '', (err) => {
 });
 
 array.forEach(e => {
-    const text = `### Instruction : ${e.instruction}\n### Context : ${e.context}\n### Input : ${e.input}\n### Response : ${e.response}\n`
-    const json = JSON.stringify({ text: text })
-    // console.log(text)
-    fs.appendFile(filename, json + '\n', (err) => {
-        if (err) {
-            console.error(err);
-            return;
-        }
-    });
+    if (e.context=='') {
+        const text = `### Instruction : ${e.instruction}\n### Input : ${e.input}\n### Response : ${e.response}\n`
+        const json = JSON.stringify({ text: text })
+        // console.log(text)
+        fs.appendFile(filename, json + '\n', (err) => {
+            if (err) {
+                console.error(err);
+                return;
+            }
+        });
+    }
 });
 
 // fs.close();
