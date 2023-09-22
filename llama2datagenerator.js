@@ -5,6 +5,7 @@ let instruction = `Choose from one of ('weather' or 'other topic') what input is
 let othertopic = `Related to : other topic`
 
 let array = [
+    
     {
         instruction: instruction,
         context:``,
@@ -16,6 +17,30 @@ let array = [
         context:`rain`,
         input: `bagaimana dengan hari ini ?`,
         response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        context:`snow`,
+        input: `apakah 10 hari lagi juga ?`,
+        response: `Related to : weather, detail : snow, when : 10 days from now, how many days from today : 10`
+    },
+    {
+        instruction: instruction,
+        context:`rain`,
+        input: `apakah 5 hari lagi juga ?`,
+        response: `Related to : weather, detail : rain, when : 5 days from now, how many days from today : 5`
+    },
+    {
+        instruction: instruction,
+        context:`snow`,
+        input: `bagaimana dengan 20 hari lagi ?`,
+        response: `Related to : weather, detail : snow, when : 20 days from now, how many days from today : 20`
+    },
+    {
+        instruction: instruction,
+        context:`rain`,
+        input: `bagaimana dengan 20 hari lagi ?`,
+        response: `Related to : weather, detail : rain, when : 20 days from now, how many days from today : 20`
     },
     {
         instruction: instruction,
