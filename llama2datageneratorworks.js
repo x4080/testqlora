@@ -253,5 +253,3 @@ array.forEach(e => {
         }
     });
 });
-
-// fs.close();
