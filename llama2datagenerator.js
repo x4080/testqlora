@@ -258,6 +258,24 @@ let array = [
         input: `I want to order pizza`,
         response: othertopic
     },
+    {
+        instruction: instruction,
+        context:`weather`,
+        input: `what is 20+40`,
+        response: othertopic
+    },
+    {
+        instruction: instruction,
+        context:``,
+        input: `fuck you`,
+        response: othertopic
+    },
+    {
+        instruction: instruction,
+        context:``,
+        input: `motherfucker`,
+        response: othertopic
+    },
 ]
 
 fs.writeFile(filename, '', (err) => {
