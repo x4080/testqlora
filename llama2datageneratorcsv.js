@@ -1,7 +1,7 @@
 const filename = "train.csv"
 const fs = require('fs');
 
-let instruction = `Choose from one of ('weather' or 'other topic') what input is related to. input can be in indonesian or english, response always in english. Detail is from context if not available in input`
+let instruction = `Choose from one of ('weather' or 'other topic') what input is related to, input can be in indonesian or english, response always in english. Detail is from context if not available in input`
 let othertopic = `Related to : other topic`
 
 let array = [
@@ -295,9 +295,10 @@ fs.writeFile(filename, '', (err) => {
     }
 });
 
-line = "enpty,text\n"
+line = "text\n"
 array.forEach(e => {
-    const text = ','+`### Instruction : ${e.instruction} ### Context : ${e.context} ### Input : ${e.input} ### Response : ${e.response}`
+    const text = `"### Instruction : ${e.instruction}\n### Context : ${e.context}\n### Input : ${e.input}\n### Response : ${e.response}"`
+    // const text = ','+`### Instruction : ${e.instruction} ### Context : ${e.context} ### Input : ${e.input} ### Response : ${e.response}`
     line = line + text + "\n"
 });
 
