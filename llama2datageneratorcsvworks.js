@@ -1,4 +1,3 @@
-// only english for mistral
 const filename = "train.csv"
 const fs = require('fs');
 
@@ -7,6 +6,78 @@ let othertopic = `Related to : other topic`
 
 let array = [
 
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Siapa namamu ?`,
+        response: othertopic
+    },
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `bagaimana dengan hari ini ?`,
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `apakah 10 hari lagi juga ?`,
+        response: `Related to : weather, detail : snow, when : 10 days from now, how many days from today : 10`
+    },
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `apakah 5 hari lagi juga ?`,
+        response: `Related to : weather, detail : rain, when : 5 days from now, how many days from today : 5`
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `bagaimana dengan 20 hari lagi ?`,
+        response: `Related to : weather, detail : snow, when : 20 days from now, how many days from today : 20`
+    },
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `bagaimana dengan 20 hari lagi ?`,
+        response: `Related to : weather, detail : rain, when : 20 days from now, how many days from today : 20`
+    },
+    {
+        instruction: instruction,
+        context: `thunderstorm`,
+        input: `bagaimana dengan besok ?`,
+        response: `Related to : weather, detail : thunderstorm, when : tommorow, how many days from today : 1`
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Apakah kemarin hujan ?`,
+        response: `Related to : weather, detail : rain, when : yesterday, how many days from today : -1`
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Apakah hari ini akan hujan ?`,
+        response: `Related to : weather, detail : rain, when : today, how many days from today : 0`
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Apakah 2 hari lagi akan hujan ?`,
+        response: `Related to : weather, detail : rain, when : 2 days from now, how many days from today : 2`
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Apakah besok akan hujan ?`,
+        response: `Related to : weather, detail : rain, when : tommorow, how many days from today : 1`
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Apakah minggu depan akan hujan ?`,
+        response: `Related to : weather, detail : rain, when : next week, how many days from today : 7`
+    },
     {
         instruction: instruction,
         context: ``,
