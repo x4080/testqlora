@@ -295,9 +295,9 @@ fs.writeFile(filename, '', (err) => {
     }
 });
 
-line = "text\n"
+line = "enpty,text\n"
 array.forEach(e => {
-    const text = `### Instruction : ${e.instruction} ### Context : ${e.context} ### Input : ${e.input} ### Response : ${e.response}`
+    const text = ','+`### Instruction : ${e.instruction} ### Context : ${e.context} ### Input : ${e.input} ### Response : ${e.response}`
     line = line + text + "\n"
 });
 
