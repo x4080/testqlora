@@ -1,4 +1,4 @@
-// training using example is not working
+// training using example is not working, when training dont use example just instruction, but when inferencing use example
 const filename = "llama2data.jsonl"
 const fs = require('fs');
 
@@ -43,6 +43,18 @@ let array = [
         context: `snow`,
         input: `bagaimana dengan kemarin`,
         response: 'Related to : weather, detail : snow, when : yesterday, how many days from today : -1'
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `Whats your name`,
+        response: 'Related to : other topic'
+    },
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `Whats your name`,
+        response: 'Related to : other topic'
     },
 ]
 
