@@ -1,0 +1,30 @@
+### Instruction : Choose from one of ('weather' or 'other topic') what input is related to, input can be in indonesian or english, response always in english. Detail is from context if not available in input
+Example :
+### Context : 
+### Input : Whats the weather like next week ?
+### Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
+### Context : 
+### Input : who are you
+### Response : Other Topics
+
+test :
+### Context : 
+### Input : Whats the weather like 20 days for now ?
+### Response :
+
+copy paste :
+# Instruction : Choose from one of ('weather' or 'other topic') for response
+example
+# Context : 
+# Input : Whats the weather like next week ?
+# Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
+# Context : 
+# Input : who are trump
+# Response : other topic
+# Context : rain
+# Input : how about next week
+# Response : Related to : weather, detail : rain, when : next week, how many days from today : 7
+solve this
+# Context : rain
+# Input : how about 2 days from now
+# Response :
