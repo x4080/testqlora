@@ -1,16 +1,17 @@
+// training using example is not working
 const filename = "llama2data.jsonl"
 const fs = require('fs');
 
 let instruction = `Choose from one of ('weather' or 'other topic') for response`
-let example =`# Context : 
-# Input : Whats the weather like next week ?
-# Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
-# Context : 
-# Input : who are trump
-# Response : other topic
-# Context : rain
-# Input : how about next week
-# Response : Related to : weather, detail : rain, when : next week, how many days from today : 7`
+// let example =`# Context : 
+// # Input : Whats the weather like next week ?
+// # Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
+// # Context : 
+// # Input : who are trump
+// # Response : other topic
+// # Context : rain
+// # Input : how about next week
+// # Response : Related to : weather, detail : rain, when : next week, how many days from today : 7`
 
 // let lines = example.split('\n');
 // let combinedText = lines.join('\n');
@@ -53,8 +54,10 @@ fs.writeFile(filename, '', (err) => {
 });
 
 array.forEach(e => {
-    let text = `# Instruction : ${e.instruction}\nexample\n`
-    text=text+example+'\nsolve this\n'+`# Context : ${e.context}\n# Input : ${e.input}\n# Response : ${e.response}\n`
+    // let text = `# Instruction : ${e.instruction}\nexample\n`
+    let text = `# Instruction : ${e.instruction}\n`
+    // text=text+example+'\nsolve this\n'+`# Context : ${e.context}\n# Input : ${e.input}\n# Response : ${e.response}\n`
+    text=text+`# Context : ${e.context}\n# Input : ${e.input}\n# Response : ${e.response}\n`
     // console.log(text)
     const json = JSON.stringify({ text: text })
     // console.log(text)
