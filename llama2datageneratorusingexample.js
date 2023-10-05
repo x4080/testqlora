@@ -7,7 +7,7 @@ let instruction = `Choose from one of ('weather' or 'other topic') for response`
 // # Input : Whats the weather like next week ?
 // # Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
 // # Context : 
-// # Input : who are trump
+// # Input : who is trump
 // # Response : other topic
 // # Context : rain
 // # Input : how about next week
@@ -17,6 +17,21 @@ let instruction = `Choose from one of ('weather' or 'other topic') for response`
 // let combinedText = lines.join('\n');
 // console.log(combinedText);
 
+// # Instruction : Choose from one of ('weather' or 'other topic') for response
+// below is example
+// # Context :
+// # Input : Whats the weather like next week ?
+// # Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
+// # Context :
+// # Input : who is trump
+// # Response : other topic
+// # Context : rain
+// # Input : how about next week
+// # Response : Related to : weather, detail : rain, when : next week, how many days from today : 7
+// solve below based on example
+// # Context :
+// # Input : how about next week
+// # Response :
 
 let array = [
 
@@ -55,6 +70,12 @@ let array = [
         context: `rain`,
         input: `Whats your name`,
         response: 'Related to : other topic'
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `what about 30 days from today`,
+        response: 'Related to : weather, detail : snow, when : 30 days from today, how many days from today : 30'
     },
 ]
 
