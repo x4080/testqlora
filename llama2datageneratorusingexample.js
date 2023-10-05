@@ -77,6 +77,12 @@ let array = [
         input: `what about 30 days from today`,
         response: 'Related to : weather, detail : snow, when : 30 days from today, how many days from today : 30'
     },
+    {
+        instruction: instruction,
+        context: `thunderstorm`,
+        input: `what about previous 2 days from today`,
+        response: 'Related to : weather, detail : thunderstorm, when : previous 2 days from today, how many days from today : -2'
+    },
 ]
 
 fs.writeFile(filename, '', (err) => {
