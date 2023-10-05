@@ -95,6 +95,12 @@ let array = [
         input: `will thunderstorm coming next week ?`,
         response: 'Related to : weather, detail : thunderstorm, when : next week, how many days from today : 7'
     },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `did thunderstorm came yesterday ?`,
+        response: 'Related to : weather, detail : snow, when : yesterday, how many days from today : -1'
+    },
 ]
 
 fs.writeFile(filename, '', (err) => {
