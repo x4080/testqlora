@@ -37,6 +37,48 @@ let array = [
 
     {
         instruction: instruction,
+        context: ``,
+        input: `i want to order some pizza please`,
+        response: 'Related to : other topic'
+    },
+    {
+        instruction: instruction,
+        context: ``,
+        input: `apakah nanti malam akan hujan`,
+        response: 'Related to : weather, detail : rain, when : tonight, how many days from today : 0'
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `apakah nanti malam akan hujan`,
+        response: 'Related to : weather, detail : rain, when : tonight, how many days from today : 0'
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `bagaimana dengan kemarin`,
+        response: 'Related to : weather, detail : snow, when : yesterday, how many days from today : -1'
+    },
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `bagaimana dengan besok`,
+        response: 'Related to : weather, detail : rain, when : tommorow, how many days from today : 1'
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `apakah hari ini akan hujan`,
+        response: 'Related to : weather, detail : rain, when : today, how many days from today : 0'
+    },
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `how about tommorow`,
+        response: 'Related to : weather, detail : rain, when : 1 days from now, how many days from today : 1'
+    },
+    {
+        instruction: instruction,
         context: `rain`,
         input: `how about 2 days from now`,
         response: 'Related to : weather, detail : rain, when : 2 days from now, how many days from today : 2'
