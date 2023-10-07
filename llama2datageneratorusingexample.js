@@ -34,7 +34,18 @@ let instruction = `Choose from one of ('weather' or 'other topic') for response`
 // # Response :
 
 let array = [
-
+    {
+        instruction: instruction,
+        context: `rain`,
+        input: `bagaimana dengan 12 hari dari hari ini`,
+        response: 'Related to : weather, detail : thunderstorm, when : 12 days from today, how many days from today : 12'
+    },
+    {
+        instruction: instruction,
+        context: `thunderstorm`,
+        input: `bagaimana dengan 20 hari dari sekarang`,
+        response: 'Related to : weather, detail : thunderstorm, when : 20 days from today, how many days from today : 20'
+    },
     {
         instruction: instruction,
         context: ``,
