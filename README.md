@@ -1,3 +1,5 @@
+# context use word 'empty' instead of just null
+
 # last context is not working well
 
 # Use quote instead of double quotes for option :

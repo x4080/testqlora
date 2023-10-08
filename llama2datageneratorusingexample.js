@@ -5,7 +5,7 @@ const fs = require('fs');
 let instruction = `Choose from one of ('weather' or 'other topic') for response`
 // let example =`# Context : 
 // # Input : Whats the weather like next week ?
-// # Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
+// # Response : Related to : weather, detail : weather, when : next week, how many days from today : 7
 // # Context : 
 // # Input : who is trump
 // # Response : other topic
@@ -36,9 +36,34 @@ let instruction = `Choose from one of ('weather' or 'other topic') for response`
 let array = [
     {
         instruction: instruction,
+        context: `empty`,
+        input: `will it rain`,
+        response: 'Related to : weather, detail : rain, when : today, how many days from today : 0'
+    },
+    {
+        instruction: instruction,
+        context: `empty`,
+        input: `whats the weather like`,
+        response: 'Related to : weather, detail : weather, when : today, how many days from today : 0'
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `whats the weather`,
+        response: 'Related to : weather, detail : snow, when : today, how many days from today : 0'
+    },
+
+    {
+        instruction: instruction,
         context: `rain`,
         input: `bagaimana dengan 12 hari dari hari ini`,
         response: 'Related to : weather, detail : thunderstorm, when : 12 days from today, how many days from today : 12'
+    },
+    {
+        instruction: instruction,
+        context: `snow`,
+        input: `bagaimana dengan 12 hari dari sekarang`,
+        response: 'Related to : weather, detail : snow, when : 12 days from today, how many days from today : 12'
     },
     {
         instruction: instruction,
@@ -48,13 +73,13 @@ let array = [
     },
     {
         instruction: instruction,
-        context: ``,
+        context: `empty`,
         input: `i want to order some pizza please`,
         response: 'Related to : other topic'
     },
     {
         instruction: instruction,
-        context: ``,
+        context: `empty`,
         input: `apakah nanti malam akan hujan`,
         response: 'Related to : weather, detail : rain, when : tonight, how many days from today : 0'
     },
@@ -114,7 +139,7 @@ let array = [
     },
     {
         instruction: instruction,
-        context: ``,
+        context: `empty`,
         input: `Whats your name`,
         response: 'Related to : other topic'
     },
