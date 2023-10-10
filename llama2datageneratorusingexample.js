@@ -3,15 +3,21 @@ const filename = "llama2data.jsonl"
 const fs = require('fs');
 
 let instruction = `Choose from one of ('weather' or 'other topic') for response`
-// let example =`# Context : 
-// # Input : Whats the weather like next week ?
-// # Response : Related to : weather, detail : weather, when : next week, how many days from today : 7
-// # Context : 
-// # Input : who is trump
-// # Response : other topic
-// # Context : rain
-// # Input : how about next week
-// # Response : Related to : weather, detail : rain, when : next week, how many days from today : 7`
+let example = `below is example
+# Context : empty
+# Input : Whats the weather like next week ?
+# Response : Related to : weather, detail : weather, when : next week, how many days from today : 7
+# Context : empty
+# Input : who is trump
+# Response : other topic
+# Context : rain
+# Input : how about next week
+# Response : Related to : weather, detail : rain, when : next week, how many days from today : 7
+solve below based on example
+# Context : empty
+# Input : whats the weather like
+# Response : Related to : weather, detail : weather, when : today, how many days from today : 0
+`
 
 // let lines = example.split('\n');
 // let combinedText = lines.join('\n');
@@ -19,7 +25,7 @@ let instruction = `Choose from one of ('weather' or 'other topic') for response`
 
 // # Instruction : Choose from one of ('weather' or 'other topic') for response
 // below is example
-// # Context :
+// # Context : empty
 // # Input : Whats the weather like next week ?
 // # Response : Related to : weather, detail : weather, when : next week, how many days from today : 0
 // # Context :
@@ -29,7 +35,7 @@ let instruction = `Choose from one of ('weather' or 'other topic') for response`
 // # Input : how about next week
 // # Response : Related to : weather, detail : rain, when : next week, how many days from today : 7
 // solve below based on example
-// # Context :
+// # Context : empty
 // # Input : how about next week
 // # Response :
 
@@ -188,11 +194,22 @@ fs.writeFile(filename, '', (err) => {
     }
 });
 
+// for example
+let text = `# Instruction : ${instruction}\n`
+text = text + example
+const json = JSON.stringify({ text: text })
+fs.appendFile(filename, json + '\n', (err) => {
+    if (err) {
+        console.error(err);
+        return;
+    }
+});
+
 array.forEach(e => {
     // let text = `# Instruction : ${e.instruction}\nexample\n`
     let text = `# Instruction : ${e.instruction}\n`
     // text=text+example+'\nsolve this\n'+`# Context : ${e.context}\n# Input : ${e.input}\n# Response : ${e.response}\n`
-    text=text+`# Context : ${e.context}\n# Input : ${e.input}\n# Response : ${e.response}\n`
+    text = text + `# Context : ${e.context}\n# Input : ${e.input}\n# Response : ${e.response}\n`
     // console.log(text)
     const json = JSON.stringify({ text: text })
     // console.log(text)
